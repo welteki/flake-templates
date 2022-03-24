@@ -2,15 +2,13 @@
   description = "Collection of flake templates";
 
   outputs = { self }: {
-    
     templates = {
       base = {
         path = ./base;
-        description = "Flake with some boilerplate";
+        description = "Base flake with vscode configuration.";
       };
     };
 
     defaultTemplate = self.templates.base;
-
   };
 }

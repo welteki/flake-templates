@@ -3,7 +3,7 @@ Collection of flake templates
 
 ## Templates
 ### Base
-Boilerplate flake with vscode configuration.
+Base flake with vscode configuration.
 
 Use:
 ```
